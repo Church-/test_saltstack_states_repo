@@ -1,0 +1,32 @@
+base.packages:
+  pkg.installed:
+    - refresh: True
+    - pkgs:
+      - bash
+      - bzip2
+      - cpio
+      - curl
+      - e2fsprogs
+      - file
+      - gnupg
+      - gzip
+      - ntp
+      - openssl
+      - sudo
+      - tar
+      - tzdata
+      - udev
+      - util-linux
+      - wget
+      - jq
+      - zsh
+      - cryptsetup-bin
+      - lvm2
+      - python3
+      - python3-pip
+      - nodejs
+      - python-pip
+      - certbot
+      - python3-certbot-dns-route53
+      - fail2ban
+      - Five internal packages that were redacted

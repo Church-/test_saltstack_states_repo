@@ -1,0 +1,10 @@
+base:
+  '*':
+    - states.hostname.hostname
+    - states.usermgmt.users
+    - states.usermgmt.groups
+    - states.repos.backtrace-testing
+    - states.repos.nodesource
+    - states.packages.packages
+    - states.packages.pip
+    - states.network.sshd
